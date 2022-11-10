@@ -120,8 +120,8 @@ def main():
             segundas_armas = get_second_weapon(jugadores)
             print("----JUGADORES CON SEGUNDA ARMA----")
             print()
-            for jugadores in segundas_armas:
-                for key, value in jugadores.items():
+            for j in segundas_armas:
+                for key, value in j.items():
                     print(f"jugador: {key} --> segunda arma: {value}")
             print()
         elif option == "5":
